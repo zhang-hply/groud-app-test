@@ -81,9 +81,6 @@ You can get support from DJI with the following methods:
 - Post questions in [**Stackoverflow**](http://stackoverflow.com) using [**dji-sdk**](http://stackoverflow.com/questions/tagged/dji-sdk) tag
 - dev@dji.com
 
-## Join Us
-
-DJI is looking for all kinds of Software Engineers to continue building the Future of Possible. Available positions in Shenzhen, China and around the world. If you are interested, please send your resume to <software-sz@dji.com>. For more details, and list of all our global offices, please check <https://we.dji.com/jobs_en.html>.
-
-DJI 招软件工程师啦，based在深圳，如果你想和我们一起把DJI产品做得更好，请发送简历到 <software-sz@dji.com>.  详情请浏览 <https://we.dji.com/zh-CN/recruitment>.
+## Extended content
+This project is based on Mobile-UXSDK-Android. The changes are mainly in [CompleteWidgetActivity.java](https://github.com/zhang-hply/groud-app-test/blob/master/Mobile-UXSDK-Android/sample/app/src/main/java/com/dji/ux/sample/CompleteWidgetActivity.java) and [res folder](https://github.com/zhang-hply/groud-app-test/tree/master/Mobile-UXSDK-Android/sample/app/src/main/res). Some UI, such as camera, have been deleted due to no room on screen to extend our UI. Showing the distance between UAV and obstacle in six directions, showing the capacity of tank and the switchs of ordering UAV to stop instantly and execute the task autonomously is added. The app has to be deployed together with OnBoard SDK. The functions that communicate with Onboard SDK are [setOnboardSDKDeviceDataCallback] and [sendDataToOnboardSDKDevice].
 
